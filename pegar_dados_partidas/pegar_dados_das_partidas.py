@@ -34,7 +34,7 @@ for dia in dias_extenso:
         time_2_jogadores_gol = str(parti['away_scorers'])
         time_2_jogadores_gol = time_2_jogadores_gol.replace("'", '')
         placar_final = f"""{parti['home_team_en']} {parti['home_score']} X
-                        {parti['away_team_en']} {parti['away_score']}"""
+{parti['away_team_en']} {parti['away_score']}"""
         # Criando lista de valores para colocar no camdando do SQLite
         valores = [parti['id'], parti['home_team_en'], parti['home_score'],
                    time_1_jogadores_gol, parti['away_team_en'],
