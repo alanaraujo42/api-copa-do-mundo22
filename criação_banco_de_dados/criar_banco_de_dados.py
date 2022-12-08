@@ -18,8 +18,6 @@ m = '11'
 for k, v in dic.items():
     if n > 30:
         m = '12'
-    # IMPORTANTE - PEGAR O ID DAS PARTIDAS PARA O UPDATE FUNCIONAR MELHOR
-    # ATUALIZAR CÓDIGO UPDATE COM ID E "PEGAR_DADOS_PARTIDAS" COM id
     comando = f"""CREATE TABLE IF NOT EXISTS dia_{k}(
     id_partida text,
     dia DEFAULT('{v}/{m}/22'),
