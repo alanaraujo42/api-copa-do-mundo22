@@ -11,7 +11,7 @@ datas = ['2011', '2111', '2211', '2311', '2411', '2511', '2611', '2711', '2811',
          '3011', '0112', '0212', '0312', '0412', '0512', '0612', '0912', '1012', '1312',
          '1412', '1712', '1812']
 
-legendas = ['dia', 'time_1', 'time_1_qtd_gol', 'time_1_jogadores_gol',
+legendas = ['id_partida', 'dia', 'time_1', 'time_1_qtd_gol', 'time_1_jogadores_gol',
             'time_2', 'time_2_qtd_gol', 'time_2_jogadores_gol',
             'grupo_do_time', 'tipo_de_partida', 'jogo_finalizado',
             'placar_final']
